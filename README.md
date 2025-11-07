@@ -36,7 +36,7 @@ Range: \( 6 < t < 60 \)
 | L1 Total Error | 37865.09 |
 | MAE | 18.93 |
 | RMSE | 22.76 |
-| Estimated Curve Length | ≈ (your output) |
+
 
 ---
 
@@ -80,14 +80,7 @@ t\cos(0.4909)
 - Explore **time-warping of t** for non-uniform sampling.  
 - Integrate results into **robotics trajectory planning** or **computer vision curve fitting**.
 
-## 🔗 Desmos Visualization (Optional)
 
-Copy this into Desmos parametric mode:
-Range: `6 ≤ t ≤ 60`
-
-🔗 Desmos: [https://www.desmos.com/calculator/rfj91yrxob](https://www.desmos.com/calculator/rfj91yrxob)
-
----
 
 ## 💻 Files in this Repository
 
@@ -96,7 +89,7 @@ Range: `6 ≤ t ≤ 60`
 | `Suvetha_SP.ipynb` | Full Kaggle notebook with code |
 | `README.md` | Project summary and results |
 | `README_SNIPPET.txt` | Auto-generated result summary |
-| `xy_data.csv` | Input dataset (if allowed) |
+
 
 ---
 
