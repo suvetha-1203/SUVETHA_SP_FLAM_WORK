@@ -112,16 +112,15 @@ Illustrates how each parameter (θ, M, X) affects the curve.
 ## 💻 Files in this Repository
 
 parametric-curve-assignment/
-│
-├── Parametric_Curve_Assignment.ipynb
-├── README.md
-├── README_SNIPPET.txt
-├── xy_data.csv
-└── plots/
-    ├── Data_and_fitted_parametric_curve.png
-    ├── Residual_histogram.png
-    ├── L1_Loss_during_optimisation.png
-    └── Sensitivity.png
+Suvetha_SP.ipynb
+README.md
+README_SNIPPET.txt
+xy_data.csv
+plots/
+    Data_and_fitted_parametric_curve.png
+    Residual_histogram.png
+    L1_Loss_during_optimisation.png
+    Sensitivity.png
 
 
 ---
