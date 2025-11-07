@@ -60,7 +60,34 @@ t\cos(0.4909)
 - 📊 Residual Distribution
 - 🔁 Sensitivity Analysis for θ, M, X
 
-(Include screenshots of your plots here if you want a professional look)
+## 📈 Plots & Analysis
+
+### 🟦 Data vs Fitted Parametric Curves
+Shows how the optimized curve (L1 & L2) fits the actual data.
+![Data and Fitted Curve](plots/Data_and_fitted_parametric_curve.png)
+
+---
+
+### 🟨 Residual Analysis
+Residuals (errors) and predicted vs actual plots help validate the model’s performance.
+![Residual Histogram](plots/Residual_histogram.png)
+
+---
+
+### 🟩 L1 Optimization Convergence
+Demonstrates how the loss decreases over iterations, ensuring convergence.
+![L1 Loss during Optimization](plots/L1_Loss_during_optimisation.png)
+
+---
+
+### 🟧 Sensitivity Analysis
+Illustrates how each parameter (θ, M, X) affects the curve.
+![Sensitivity Plots](plots/Sensitivity.png)
+> **Observation:**
+> - The L1 curve aligns closely with data, while L2 deviates slightly near sharp bends.
+> - Residuals are mostly below 25, indicating a well-fitting model.
+> - The optimization loss stabilized quickly, confirming a robust parameter set.
+> - Sensitivity plots show that θ primarily rotates the curve, while M affects its amplitude.
 
 ---
 
@@ -84,11 +111,17 @@ t\cos(0.4909)
 
 ## 💻 Files in this Repository
 
-| File | Description |
-|------|--------------|
-| `Suvetha_SP.ipynb` | Full Kaggle notebook with code |
-| `README.md` | Project summary and results |
-| `README_SNIPPET.txt` | Auto-generated result summary |
+parametric-curve-assignment/
+│
+├── Parametric_Curve_Assignment.ipynb
+├── README.md
+├── README_SNIPPET.txt
+├── xy_data.csv
+└── plots/
+    ├── Data_and_fitted_parametric_curve.png
+    ├── Residual_histogram.png
+    ├── L1_Loss_during_optimisation.png
+    └── Sensitivity.png
 
 
 ---
