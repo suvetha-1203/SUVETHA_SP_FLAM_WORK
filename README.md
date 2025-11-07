@@ -18,6 +18,22 @@ y(t) = 42 + t\sin(\theta) + e^{M|t|}\sin(0.3t)\cos(\theta)
 Range: \( 6 < t < 60 \)
 
 ---
+## 🔢 Final Parametric Equation (LaTeX Form)
+
+\[
+\left(
+t\cos(0.4909)
+- e^{0.02139|t|}\sin(0.3t)\sin(0.4909)
++ 54.9003,\ 
+42 + t\sin(0.4909)
++ e^{0.02139|t|}\sin(0.3t)\cos(0.4909)
+\right)
+\]
+
+where \( \theta = 28.1184^\circ \), \( M = 0.02139 \), and \( X = 54.9003 \).
+
+Range of parameter: \( 6 < t < 60 \)
+
 
 ## 🔢 Final Optimized Parameters (L1 Fit)
 
@@ -38,20 +54,7 @@ Range: \( 6 < t < 60 \)
 | RMSE | 22.76 |
 
 
----
 
-## 🧮 Final Parametric Equation (LaTeX)
-\[
-\left(
-t\cos(0.4909)
-- e^{0.02139|t|}\sin(0.3t)\sin(0.4909)
-+ 54.9003,\ 
-42 + t\sin(0.4909)
-+ e^{0.02139|t|}\sin(0.3t)\cos(0.4909)
-\right)
-\]
-
----
 
 ## 📈 Plots & Analysis
 
